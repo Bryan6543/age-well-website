@@ -1,0 +1,45 @@
+:root{
+    --primary-color-one:#61A882; 
+    --primary-color-two:#2c7fb8;
+
+    --seconday-color-one:#f5f5f5;
+    --secondary-color-two:#FFFF;
+    --secondary-color-three:#f4a26a;
+
+    --accent-colors-one:#e63946;
+    --accent-colors-two:#00897b;
+
+    --top-spacing: 1rem;
+    --bottom-spacing: 1rem;
+    --gap-spacing: 50px;
+
+    --nav-left-spacing:6rem;
+    --nav-right-spacing:6rem;
+
+    --font-in-your-face:4rem;
+
+    --font-text-extra-small:0.75rem;
+    --font-text-small:0.875rem;
+    --font-text-base:1rem;
+    --font-text-large:1.25rem;
+    --font-text-double-extra:1.5rem;
+    --font-text-three-extra:1.875rem;
+    --font-text-four-extra:2.25rem;
+    --font-text-five-exta:3rem;
+
+    --button-padding-right-left:2.5rem;
+    --button-padding-top-bottom:1rem;
+    --button-border-radius:20px;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", "sans-serif";
+}
+
+
+
+
+
+
+

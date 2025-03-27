@@ -1,0 +1,41 @@
+@import "./RootVariables.css";
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--top-spacing) var(--nav-left-spacing)
+    var(--bottom-spacing) var(--nav-right-spacing);
+}
+
+.nav_logo_container {
+  display: flex;
+  font-size: var(--font-text-double-extra);
+  flex-direction: column-reverse;
+}
+
+.nav_links {
+  display: flex;
+  font-size: var(--font-text-large);
+  font-weight: bold;
+  gap: var(--gap-spacing);
+}
+
+.nav_links > li:hover {
+  color: var(--primary-color-two);
+  cursor: pointer;
+}
+
+.nav_contact_us {
+    font-size: var(--font-text-large);
+  font-weight: bold;
+  border: 1px solid var(--primary-color-one);
+  padding: var(--button-padding-top-bottom) var(--button-padding-right-left)
+    var(--button-padding-top-bottom) var(--button-padding-right-left);
+  border-radius: var(--button-border-radius);
+}
+
+.nav_contact_us:hover{
+    background: var(--primary-color-one);
+    color: var(--secondary-color-two);
+}

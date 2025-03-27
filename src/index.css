@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import './Components/CSSComponents/RootVariables.css';
+@import "./Components/CSSComponents/Navbar.css";
+@import "./Components/CSSComponents/Hero.css";
+
+*{
+    /* border: 0.1px solid red; */
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+.screen_presence_msg{
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .screen_presence_msg{
+        font-weight: bolder;
+        font-size: var(--font-in-your-face);
+        margin: auto;
+        display: block;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1000;
+        background-color: var(--secondary-color-two);
+    }
+}

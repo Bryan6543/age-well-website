@@ -1,0 +1,58 @@
+@import './RootVariables.css';
+
+.hero_top_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+}
+
+.hero_headline{
+    font-size: var(--font-text-five-exta);
+    font-weight: bold;
+}
+
+.hero_subheading{
+    margin-top: var(--top-spacing);
+    font-size: var(--font-text-large);
+}
+
+.hero_button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--top-spacing);
+    gap: var(--gap-spacing);
+}
+
+.hero_button_one{
+    background-color:var(--primary-color-one);
+    color: var(--secondary-color-two);
+    border-radius: var(--button-border-radius);
+    font-weight: bold;
+    padding: var(--button-padding-top-bottom) var(--button-padding-right-left)
+    var(--button-padding-top-bottom) var(--button-padding-right-left);
+    cursor: pointer;
+}
+
+.hero_button_one:hover{
+    background-color:var(--primary-color-two);
+    color: black;
+}
+
+.hero_button_two{
+    border: 1px solid var(--primary-color-two);
+    border-radius: var(--button-border-radius);
+    font-weight: bold;
+    padding: var(--button-padding-top-bottom) var(--button-padding-right-left)
+    var(--button-padding-top-bottom) var(--button-padding-right-left);
+    cursor: pointer;
+}
+
+.hero_button_two:hover{
+    background-color: var(--primary-color-two);
+    color: var(--secondary-color-two);
+}
