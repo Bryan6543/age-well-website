@@ -7,8 +7,8 @@ const Hero = () => {
       <div className="hero_top_container">
         <div>
           {/* For the background blur filter */}
-          {/* <div className="absolute w-[70px] h-[600px] rounded-full blur-[180px] bg-orange-300"></div> */}
-          {/* <div className="absolute w-[70px] h-[600px] rounded-full blur-[180px] ml-200 bg-green-300"></div> */}
+          <div className="absolute w-[70px] h-[600px] rounded-full blur-[180px] bg-orange-300"></div>
+          <div className="absolute w-[70px] h-[600px] rounded-full blur-[180px] ml-200 bg-green-300"></div>
           <h1 className="hero_headline">
             All-in-One Care for Your Loved Ones <br /> Health, Reminders &
             Well-being in One
