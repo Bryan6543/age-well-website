@@ -2,7 +2,7 @@
 @import './Components/CSSComponents/RootVariables.css';
 @import "./Components/CSSComponents/Navbar.css";
 @import "./Components/CSSComponents/Hero.css";
-
+@import "./Components/CSSComponents/Features.css";
 *{
     /* border: 0.1px solid red; */
     box-sizing: border-box;

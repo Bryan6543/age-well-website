@@ -19,54 +19,72 @@ function Feature() {
   return (
     <>
     <div className='features_main_container'>
+      {/* Feature Title */}
         <div className='features_title'>
-          <h1>Feature</h1>
-          <img src={MedReminder} alt="" />
+          <h1>Applicaiton Features</h1>
         </div>
-        <div>
-          <div className="feature_container">
+        {/* Feature Icons */}
+        <div className='features_icon'>
+          <div className="feature_icon_container">
+            <img src={MedReminder} alt="" />
+            <p className='feature_name'>Meds Reminder</p>
+          </div>
+          <div className="feature_icon_container">
             <img src={ActivityTracking} alt="" />
+            <p className='feature_name'>Activity Tracking</p>
           </div>
-          <div className="feature_container">
+          <div className="feature_icon_container">
             <img src={CaretakerChat} alt="" />
+            <p className='feature_name'>Caretaker Chat</p>
           </div>
-          <div className="feature_container">
+          <div className="feature_icon_container">
             <img src={DoctorReminder} alt="" />
+            <p className='feature_name'>Doctor Reminder</p>
           </div>
-          <div className="feature_container">
+          <div className="feature_icon_container">
             <img src={Glucoselevel} alt="" />
+            <p className='feature_name'>Glucose Level</p>
           </div>
-          <div className="feature_container">
+          <div className="feature_icon_container">
             <img src={Heartrate} alt="" />
+            <p className='feature_name'>Heart Rate</p>
           </div>
-          <div className="feature_container">
+          <div className="feature_icon_container">
             <img src={PatientLocation} alt="" />
+            <p className='feature_name'>Patient Location</p>
           </div>
-          <div className="feature_container">
+          <div className="feature_icon_container">
             <img src={BodyTemp} alt="" />
+            <p className='feature_name'>Body Temp</p>
           </div>
-          <div className="feature_container">
+          <div className="feature_icon_container">
             <img src={RespiratoryRate} alt="" />
+            <p className='feature_name'>Respiratory Rate</p>
           </div>
-          <div className="feature_container">
+          <div className="feature_icon_container">
             <img src={BloodOxygen} alt="" />
+            <p className='feature_name'>Blood Oxygen</p>
           </div>
-          <div className="feature_container">
+          <div className="feature_icon_container">
             <img src={BloodPressure} alt="" />
+            <p className='feature_name'>Blood Pressure</p>
           </div>
-          <div className="feature_container">
+          <div className="feature_icon_container">
             <img src={Weight} alt="" />
+            <p className='feature_name'>Weight</p>
           </div>
-          <div className="feature_container">
+          <div className="feature_icon_container">
             <img src={StressLevel} alt="" />
+            <p className='feature_name'>Stress Level</p>
           </div>
-          <div className="feature_container">
+          <div className="feature_icon_container">
             <img src={SleepTracker} alt="" />
+            <p className='feature_name'>Sleep Tracker</p>
           </div>
-          <div className="feature_container">
+          <div className="feature_icon_container">
 
           </div>
-          <div className="feature_container">
+          <div className="feature_icon_container">
 
           </div>
         </div>
