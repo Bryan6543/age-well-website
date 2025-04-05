@@ -15,14 +15,23 @@
 
 @media only screen and (max-width: 1000px) {
     .screen_presence_msg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         font-weight: bolder;
         font-size: var(--font-in-your-face);
-        margin: auto;
-        display: block;
         position: fixed;
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
         z-index: 1000;
+        text-align: center;
+        padding: 20px;
+        padding-top: 200px;
         background-color: var(--secondary-color-two);
     }
+        .screen_presence_msg > img{
+            width: 40%;
+            height:  40%;
+        }
 }

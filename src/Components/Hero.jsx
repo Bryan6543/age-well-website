@@ -33,7 +33,7 @@ const Hero = () => {
           <img
             src=""
             alt=""
-            className="w-[800px] h-[500px] mt-8 rounded-2xl object-contain ml-30"
+            className="w-[800px] h-[500px] mt-8 rounded-2xl object-contain"
           />
         </div>
       </div>
