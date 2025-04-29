@@ -22,12 +22,8 @@ const Hero = () => {
 
           {/* Buttons */}
           <div className="hero_button_container">
-            <button className="hero_button_one">
-              View Demo
-            </button>
-            <button className="hero_button_two border">
-              Download Docs
-            </button>
+            <button className="hero_button_one">View Demo</button>
+            <button className="hero_button_two border">Download Docs</button>
           </div>
 
           <img
@@ -35,6 +31,7 @@ const Hero = () => {
             alt=""
             className="w-[800px] h-[500px] mt-8 rounded-2xl object-contain"
           />
+          
         </div>
       </div>
     </div>
